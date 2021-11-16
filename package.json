@@ -6,11 +6,12 @@
   "author": "andrmoel@gmail.come",
   "license": "MIT",
   "dependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/eslint-plugin": "^7.14.5",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-cypress": "^2.11.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-react": "^7.18.3"
   }
 }
