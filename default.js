@@ -35,6 +35,7 @@ module.exports = {
         ],
         'padded-blocks': ['error', 'never'],
         'arrow-body-style': ['error', 'as-needed'],
+        'arrow-spacing': ['error'],
         'prefer-arrow-callback': ['error'],
         'no-multiple-empty-lines': [
             'error', {
@@ -46,6 +47,7 @@ module.exports = {
         'lines-between-class-members': ['error', 'always'],
         'newline-before-return': 'error',
         'operator-linebreak': ['error', 'before'],
+        'nonblock-statement-body-position': ['error', 'below'],
         'eqeqeq': ['error'],
         'require-jsdoc': [
             'error', {
@@ -70,7 +72,7 @@ module.exports = {
         ],
         'no-extra-semi': 'error',
         'no-invalid-this': 0,
-        'babel/no-invalid-this': 1,
-        'import/order': ['error'],
+        '@babel/no-invalid-this': 1,
+        'import/order': ['error', {'newlines-between': 'always'}],
     },
 };
