@@ -44,5 +44,5 @@ jobs:
           yarn build
           cp package.json ./dist/package.json
 
-#      - name: 'Publish package'
-#        run: yarn publish dist
+      - name: 'Publish package'
+        run: npm publish dist
