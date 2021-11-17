@@ -1,0 +1,48 @@
+name: Release new version
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: 'Setup cache for node_modules'
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: **/node_modules
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: 'Prepare git'
+        run: |
+          git config --global user.email "noreply@github.com"
+          git config --global user.name "github version update"
+          git branch -u origin/master master
+
+      - name: 'Install project'
+        run: yarn install
+
+      - name: 'Prepare release'
+        run: yarn release
+
+      - name: 'Publish release'
+        run: git push --follow-tags
+
+      - name: 'Build release'
+        run: |
+          yarn build
+          cp package.json ./dist/package.json
+
+#      - name: 'Publish package'
+#        run: yarn publish dist
