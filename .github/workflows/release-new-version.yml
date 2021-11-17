@@ -44,5 +44,8 @@ jobs:
           yarn build
           cp package.json ./dist/package.json
 
-      - name: 'Publish package'
-        run: npm publish dist
+      - name: 'Publish release to npm'
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./dist/package.json
