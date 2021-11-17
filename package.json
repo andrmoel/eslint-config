@@ -1,6 +1,6 @@
 {
   "name": "@andrmoel/eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint configuration for andrmoel projects",
   "repository": "git@github.com:andrmoel/eslint-config-andrmoel.git",
   "main": "index.js",
