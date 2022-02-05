@@ -5,10 +5,9 @@ on:
     branches: [ master ]
 
 jobs:
-  release:
-
+  releaseNewVersion:
+    name: 'Release new version'
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
 
@@ -18,7 +17,6 @@ jobs:
           node-version: 12.x
 
       - name: 'Setup cache for node_modules'
-        id: cache-node-modules
         uses: actions/cache@v2
         with:
           path: '**/node_modules'
@@ -33,16 +31,38 @@ jobs:
       - name: 'Install project'
         run: yarn install
 
-      - name: 'Prepare release'
-        run: yarn release
+      - name: 'Increase version'
+        run: npx standard-version
 
-      - name: 'Publish release'
+      - name: 'Push new version to git'
         run: git push --follow-tags
 
+  publishDefaultConfig:
+    name: 'Publish default config'
+    needs: releaseNewVersion
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: 'Prepare git'
+        run: git pull
+
+      - name: 'Setup cache for node_modules'
+        uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: 'Install project'
+        run: yarn install
+
       - name: 'Build release'
-        run: |
-          yarn build
-          cp package.json ./dist/package.json
+        run: npx ./scripts/build.js @andrmoel/eslint-config default
 
       - name: 'Publish release to npm'
         uses: JS-DevTools/npm-publish@v1
