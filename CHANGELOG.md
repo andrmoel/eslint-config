@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0 (2022-02-05)
+
+
+### Features
+
+* **typescript:** add rule type-annotation-spacing ([bfdd810](https://github.com/andrmoel/eslint-config/commit/bfdd81062ba4f4d6b9b1986d5fc17de25d893ba4))
+
 ## 1.1.0 (2022-02-05)
 
 
