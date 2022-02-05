@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.3.0 (2022-02-05)
+
+
+### Features
+
+* **typescript:** add rule explicit-function-return-type ([553e33d](https://github.com/andrmoel/eslint-config/commit/553e33d8a2032fd3f01b1328f94829b87063a4a5))
+
 ## 1.2.0 (2022-02-05)
 
 
