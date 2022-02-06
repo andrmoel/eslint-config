@@ -36,6 +36,19 @@ module.exports = {
         'padded-blocks': ['error', 'never'],
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-spacing': ['error'],
+        'object-curly-spacing': ['error', 'never'],
+        'array-bracket-spacing': ['error', 'never'],
+        'computed-property-spacing': ['error', 'never'],
+        'comma-dangle': [
+            'error', {
+                'arrays': 'always-multiline',
+                'objects': 'always-multiline',
+                'imports': 'always-multiline',
+                'exports': 'always-multiline',
+                'functions': 'always-multiline',
+            },
+        ],
+        'space-in-parens': ['error'],
         'prefer-arrow-callback': ['error'],
         'no-multiple-empty-lines': [
             'error', {
@@ -72,7 +85,8 @@ module.exports = {
         ],
         'no-extra-semi': 'error',
         'no-invalid-this': 0,
+        'no-unused-vars': 'error',
         '@babel/no-invalid-this': 1,
-        'import/order': ['error'],
+        'import/order': 'error',
     },
 };
