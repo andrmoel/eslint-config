@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.5.0 (2022-02-06)
+
+
+### Features
+
+* **default:** add new rules ([142ce50](https://github.com/andrmoel/eslint-config/commit/142ce504a44ca6184f6a58f9aef17ff8dadf7940))
+
 ### 1.4.1 (2022-02-06)
 
 ## 1.4.0 (2022-02-06)
