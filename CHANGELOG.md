@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.6.0 (2022-02-06)
+
+
+### Features
+
+* **react:** add react config ([ad80ba6](https://github.com/andrmoel/eslint-config/commit/ad80ba61625392ba62203f8e3d25253863e4a496))
+
 ### 1.5.1 (2022-02-06)
 
 ## 1.5.0 (2022-02-06)
