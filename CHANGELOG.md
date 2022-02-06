@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.4.0 (2022-02-06)
+
+
+### Features
+
+* **typescript:** add rule explicit-member-accessibility ([2456c90](https://github.com/andrmoel/eslint-config/commit/2456c90ff37c2de00879c549fdce5f5d9bfc1b43))
+
 ### 1.3.1 (2022-02-05)
 
 
