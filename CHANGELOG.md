@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.7.0 (2022-02-16)
+
+
+### Features
+
+* **default:** add function-paren-newline rule ([00fe961](https://github.com/andrmoel/eslint-config/commit/00fe961466e7306274ebb3ec1ac6b1fab18c2f7c))
+
 ## 1.6.0 (2022-02-06)
 
 
