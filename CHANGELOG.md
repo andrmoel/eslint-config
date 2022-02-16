@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.8.0 (2022-02-16)
+
+
+### Features
+
+* **default:** add json format plugin ([bef7b30](https://github.com/andrmoel/eslint-config/commit/bef7b30745954d61e11a401cf98eabab6832d40d))
+
 ## 1.7.0 (2022-02-16)
 
 
