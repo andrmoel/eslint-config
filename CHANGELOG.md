@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.7.1 (2022-02-16)
+
+
+### Bug Fixes
+
+* **typescript:** fix broken semi rules ([5ad44b2](https://github.com/andrmoel/eslint-config/commit/5ad44b25e70ea5b3ad75bd8a6ad032dec94bc6fa))
+
 ## 1.7.0 (2022-02-16)
 
 
