@@ -61,6 +61,7 @@ module.exports = {
         'newline-before-return': 'error',
         'operator-linebreak': ['error', 'before'],
         'nonblock-statement-body-position': ['error', 'below'],
+        'function-paren-newline': ['error', 'multiline-arguments'],
         'eqeqeq': 'error',
         'require-jsdoc': [
             'error', {
