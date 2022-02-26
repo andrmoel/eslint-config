@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.8.0 (2022-02-26)
+
+
+### Features
+
+* **typescript:** add member-delimiter-style rule ([c2757f9](https://github.com/andrmoel/eslint-config/commit/c2757f989734caed77e87f1fd8e9587c78e88fc4))
+
 ### 1.7.2 (2022-02-16)
 
 ### 1.7.1 (2022-02-16)
