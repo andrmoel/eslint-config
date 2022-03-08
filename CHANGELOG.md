@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.9.0 (2022-03-08)
+
+
+### Features
+
+* **default:** add rule object-property-newline ([5936ca6](https://github.com/andrmoel/eslint-config/commit/5936ca676dc6cd5eedaaf364af332d61c3251269))
+
 ## 1.8.0 (2022-02-26)
 
 
