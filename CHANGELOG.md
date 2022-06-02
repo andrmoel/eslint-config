@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.10.0 (2022-06-02)
+
+
+### Features
+
+* **default:** add import rules ([abf7ee2](https://github.com/andrmoel/eslint-config/commit/abf7ee267b0b8d2ed215a364b1f7bb5dfc6f581f))
+
 ## 1.9.0 (2022-03-08)
 
 
