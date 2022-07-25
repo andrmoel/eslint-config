@@ -11,10 +11,10 @@
     "release": "standard-version --tag-prefix --commit-all"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.9",
     "@babel/eslint-plugin": "^7.17.7",
-    "@typescript-eslint/eslint-plugin": "^5.30.6",
-    "@typescript-eslint/parser": "^5.30.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-cypress": "^2.11.2",
     "eslint-plugin-import": "^2.26.0",
