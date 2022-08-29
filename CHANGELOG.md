@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.11.0 (2022-08-29)
+
+
+### Features
+
+* **node:** upgrade to node 14 ([a0ebf16](https://github.com/andrmoel/eslint-config/commit/a0ebf16cf7eadf05d3121eea3bea207e612c1b9a))
+
 ## 1.10.0 (2022-06-02)
 
 
