@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.12.0 (2022-11-03)
+
+
+### Features
+
+* **typescript:** add new rules ([eaa6e3f](https://github.com/andrmoel/eslint-config/commit/eaa6e3f9e6a7c1bcb62d7b503ea123e34e11b035))
+
 ## 1.11.0 (2022-08-29)
 
 
