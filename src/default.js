@@ -7,11 +7,15 @@ module.exports = {
     'extends': [
         'google',
         'plugin:cypress/recommended',
+        'plugin:jest-formatting/strict',
+        'plugin:jest/style',
     ],
     'plugins': [
         '@babel',
+        'filenames',
         'import',
         'jest',
+        'jest-formatting',
         'json-format',
     ],
     'env': {
@@ -22,6 +26,7 @@ module.exports = {
         'fail': 'readonly',
     },
     'rules': {
+        'filenames/match-exported': ['error', ['camel', 'pascal']],
         'indent': [
             'error', 4, {
                 'SwitchCase': 1,
@@ -56,6 +61,11 @@ module.exports = {
         ],
         'space-in-parens': 'error',
         'prefer-arrow-callback': 'error',
+        'array-callback-return': [
+            'error', {
+                'checkForEach': true,
+            },
+        ],
         'no-multiple-empty-lines': [
             'error', {
                 'max': 1,
@@ -93,9 +103,11 @@ module.exports = {
         'no-extra-semi': 'error',
         'no-invalid-this': 0,
         'no-unused-vars': 'error',
+        'dot-notation': 'error',
         '@babel/no-invalid-this': 1,
         'import/order': 'error',
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
+        'jest/valid-title': 'error',
     },
 };
