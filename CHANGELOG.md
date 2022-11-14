@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.12.2 (2022-11-14)
+
+
+### Bug Fixes
+
+* **jest:** add plugin eslint-plugin-jest-formatting ([af4cd79](https://github.com/andrmoel/eslint-config/commit/af4cd79e36b3572089565777c15465e14f1c7e6c))
+
 ### 1.12.1 (2022-11-14)
 
 ## 1.12.0 (2022-11-03)
