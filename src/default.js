@@ -34,6 +34,7 @@ module.exports = {
         ],
         'no-undef': 'error',
         'max-len': ['error', 120, 4],
+        'max-depth': ['warn', {max: 2}],
         'space-infix-ops': [
             'error', {
                 'int32Hint': false,
@@ -60,6 +61,7 @@ module.exports = {
             },
         ],
         'space-in-parens': 'error',
+        'no-extra-parens': ['error', 'all', {'ignoreJSX': 'all'}],
         'prefer-arrow-callback': 'error',
         'array-callback-return': [
             'error', {
@@ -108,6 +110,13 @@ module.exports = {
         'import/order': 'error',
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
+        'import/newline-after-import': 'error',
+        'jest/consistent-test-it': ['error', {'fn': 'it'}],
+        'jest/no-conditional-expect': 'error',
+        'jest/no-duplicate-hooks': 'error',
+        'jest/no-identical-title': 'error',
+        'jest/no-standalone-expect': 'error',
+        'jest/valid-expect': 'error',
         'jest/valid-title': 'error',
     },
 };

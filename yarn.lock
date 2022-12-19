@@ -183,7 +183,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.46.1", "@typescript-eslint/utils@^5.10.0":
+"@typescript-eslint/utils@5.46.1", "@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.38.0":
   version "5.46.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.46.1.tgz#7da3c934d9fd0eb4002a6bb3429f33298b469b4a"
   integrity sha512-RBdBAGv3oEpFojaCYT4Ghn4775pdjvwfDOfQ2P6qzNVgQOVrnSPe5/Pb88kv7xzYQjoio0eKHKB9GJ16ieSxvA==
@@ -854,6 +854,13 @@ eslint-plugin-react@^7.31.11:
     resolve "^2.0.0-next.3"
     semver "^6.3.0"
     string.prototype.matchall "^4.0.8"
+
+eslint-plugin-redundant-undefined@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-redundant-undefined/-/eslint-plugin-redundant-undefined-0.3.0.tgz#f605a06cd3140934446cbab6c757f2d719ffb867"
+  integrity sha512-Zlgm/rMINQhuw0yD2i1pWW2FJvrpz0uBiFI+wVJ97lTmoRdphphyOtEFoZ6tdR34icCJKsrTcaUHbJX+IoFO9A==
+  dependencies:
+    "@typescript-eslint/utils" "^5.38.0"
 
 eslint-rule-composer@^0.3.0:
   version "0.3.0"
