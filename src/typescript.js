@@ -14,22 +14,24 @@ module.exports = {
         'redundant-undefined/redundant-undefined': 'error',
         '@typescript-eslint/semi': 'error',
         '@typescript-eslint/no-extra-semi': 'error',
-        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/await-thenable': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/space-infix-ops': 'error',
         '@typescript-eslint/member-delimiter-style': 'error',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
-        '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/array-type': [
             'error',
             {
                 'default': 'generic',
-                'read-only': 'generic',
             },
         ],
-        '@typescript-eslint/await-thenable': 'error',
+        '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-unused-vars': ['error', {'ignoreRestSiblings': true}],
+        '@typescript-eslint/no-duplicate-enum-values': 'error',
+        '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+        '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/naming-convention': [
             'error',
             {
@@ -44,6 +46,15 @@ module.exports = {
                     'camelCase',
                     'UPPER_CASE',
                 ],
+            },
+            {
+                'selector': 'variable',
+                'format': null,
+                'modifiers': ['unused'],
+                'custom': {
+                    regex: '^_+$',
+                    match: true,
+                },
             },
             {
                 'selector': [
