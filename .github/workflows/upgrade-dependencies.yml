@@ -28,9 +28,9 @@ jobs:
 
       - name: 'Build'
         run: |
-          npx ./scripts/build.js @andrmoel/eslint-config default
-          npx ./scripts/build.js @andrmoel/eslint-config-react react
-          npx ./scripts/build.js @andrmoel/eslint-config-typescript typescript
+          node ./scripts/build.js @andrmoel/eslint-config default
+          node ./scripts/build.js @andrmoel/eslint-config-react react
+          node ./scripts/build.js @andrmoel/eslint-config-typescript typescript
 
       - name: 'Push to git'
         run: |
