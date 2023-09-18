@@ -1,24 +1,6 @@
 module.exports = {
-    'settings': {
-        'react': {
-            'createClass': 'createReactClass',
-            'pragma': 'React',
-            'version': 'detect',
-        },
-    },
-    'parser': '@babel/eslint-parser',
-    'parserOptions': {
-        'ecmaVersion': 6,
-        'sourceType': 'module',
-        'ecmaFeatures': {
-            'jsx': true,
-        },
-    },
     'extends': [
         'plugin:react/recommended',
-    ],
-    'plugins': [
-        '@babel',
     ],
     'rules': {
         'jsx-quotes': ['error', 'prefer-double'],
