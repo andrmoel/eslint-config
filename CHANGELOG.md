@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.14.0 (2023-09-18)
+
+
+### Features
+
+* update dependencies ([4dc96e3](https://github.com/andrmoel/eslint-config/commit/4dc96e37c8e826cef5ea521636aa5411565e7831))
+
 ### 1.13.2 (2023-08-12)
 
 ### 1.13.1 (2023-08-12)
